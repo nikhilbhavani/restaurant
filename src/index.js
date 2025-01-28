@@ -1,6 +1,9 @@
 import './styles.css'
 import home from './components/home/home.js'
 import menu from './components/menu/menu.js'
+import about from './components/about/about.js'
+import contact from './components/contact/contact.js'
+
 
 const navbut=document.querySelectorAll('nav button');
 navbut.forEach((btn)=>{
@@ -18,6 +21,12 @@ navbut.forEach((btn)=>{
             case 'menu':
                 contentDiv.classList.add('menu-active');
                 updateContent(menu());
+                break;
+            case 'about':
+                updateContent(about());
+                break;
+            case 'contact':
+                updateContent(contact());
                 break;
         }
     });
