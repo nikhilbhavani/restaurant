@@ -60,7 +60,8 @@ nav button{
 }
 
 #content{
-    background-color: black;
+    height: 600px;
+    margin-top: 200px;
 }
 
 
