@@ -1,0 +1,73 @@
+#content.menu-active{
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-content{
+    height: 600px;
+    width: 1500px;
+    background-color: rgba(0, 0, 0, 0.8) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-title{
+    font-size: 60px;
+    padding-top:20px;
+}
+
+.menu-courses{
+    
+    display: flex;
+    align-self: center;
+    justify-content: center space-evenly;
+
+}
+
+.menu-breakfast{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px    
+}
+
+.menu-lunch{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px    
+}
+
+.menu-dinner{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px    
+}
+
+.image{
+    height:250px;
+    width:250px;
+    background-size: cover;
+}
+
+#breakfast-image{
+    background-image: url('./breakfast.jpg');
+}
+
+#lunch-image{
+    background-image: url('./rename.jpg');
+}
+
+#dinner-image{
+    background-image: url('./dinner.jpg');
+}

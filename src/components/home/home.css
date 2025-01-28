@@ -1,3 +1,30 @@
-.container{
-    padding:30px;
+.home-content{
+    padding:50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 300px;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    align-self: flex-start;
+}
+
+.home-title{
+    font-size: 50px;
+}
+
+.home-subtitle{
+    align-self: flex-end;
+}
+
+.home-description{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 20px;
 }
